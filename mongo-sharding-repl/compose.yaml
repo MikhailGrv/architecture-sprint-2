@@ -1,5 +1,5 @@
 version: '3'
-name: mongo-sharding
+name: mongo-sharding-repl
 services:
 
   #сервер конфигурации
@@ -11,7 +11,7 @@ services:
       - "27016:27016"
     networks:
       app-network:
-        ipv4_address: 173.17.0.10
+        ipv4_address: 173.17.0.11
     volumes:
       - config-data:/data/db
     command:
@@ -53,6 +53,58 @@ services:
       test: [ "CMD", "mongo", "--eval", "db.adminCommand('ping')" ]
       interval: 5s
       start_period: 10s
+  
+  shard1-repl1:
+    image: mongo:latest
+    container_name: shard1-repl1
+    restart: always
+    ports:
+      - "27021:27021"
+    networks:
+      app-network:
+        ipv4_address: 173.17.0.8
+    volumes:
+      - shard1-repl1-data:/data/db
+    command:
+      [
+        "--shardsvr", #запуск в режиме шардинга
+        "--replSet",
+        "shard1", #название реплики
+        "--bind_ip_all",
+        "--port",
+        "27021"
+      ]
+    healthcheck:
+      test: [ "CMD", "mongo", "--eval", "db.adminCommand('ping')" ]
+      interval: 5s
+      start_period: 10s
+
+  shard1-repl2:
+    image: mongo:latest
+    container_name: shard1-rep2
+    restart: always
+    ports:
+      - "27022:27022"
+    networks:
+      app-network:
+        ipv4_address: 173.17.0.7
+    volumes:
+      - shard1-repl2-data:/data/db
+    command:
+      [
+        "--shardsvr", #запуск в режиме шардинга
+        "--replSet",
+        "shard1", #название реплики
+        "--bind_ip_all",
+        "--port",
+        "27022"
+      ]
+    healthcheck:
+      test: [ "CMD", "mongo", "--eval", "db.adminCommand('ping')" ]
+      interval: 5s
+      start_period: 10s
+  
+
 
   #2-й шард 
   shard2:
@@ -63,7 +115,7 @@ services:
       - "27019:27019"
     networks:
       app-network:
-        ipv4_address: 173.17.0.8
+        ipv4_address: 173.17.0.5
     volumes:
       - shard2-data:/data/db
     command:
@@ -89,7 +141,7 @@ services:
       - "27020:27020"
     networks:
       app-network:
-        ipv4_address: 173.17.0.7
+        ipv4_address: 173.17.0.12
     command:
       [
         "mongos", #обычная mongo в режиме роутера
@@ -104,6 +156,7 @@ services:
       interval: 5s
       start_period: 10s
 
+
 networks:
   app-network:
     driver: bridge
@@ -115,4 +168,6 @@ networks:
 volumes:
   config-data:
   shard1-data:
+  shard1-repl1-data:
+  shard1-repl2-data:
   shard2-data:
