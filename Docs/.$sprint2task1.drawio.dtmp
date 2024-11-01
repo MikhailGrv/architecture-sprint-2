@@ -245,7 +245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ayCYZ1CcTYrgE8Ct09c6" name="Part-5-apigw">
-    <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3804" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -332,6 +332,9 @@
         </mxCell>
         <mxCell id="6NhUNwpglI7nJObV3-_g-27" value="&lt;div&gt;&lt;div&gt;Redis&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="170" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NhUNwpglI7nJObV3-_g-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
