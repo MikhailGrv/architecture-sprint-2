@@ -1,8 +1,8 @@
 Спринт 2 
-задача 2 
+задача 3
 Реплики к шардам
 
-Дока architecture-sprint-2\Docs\sprint2task1.drawio закладка Part-2-shard
+Дока architecture-sprint-2\Docs\sprint2task1.drawio закладка Part-4-repl
 
 Как запустить:
 1. в текущей дирректории docker compose  up -d

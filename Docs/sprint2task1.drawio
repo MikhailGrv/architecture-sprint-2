@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="5">
   <diagram name="Original" id="-H_mtQnk-PTXWXPvYvuk">
     <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="LbmP4flxGa864f3Nl_LP" name="Part-1- shard">
+  <diagram id="LbmP4flxGa864f3Nl_LP" name="Part-2- shard">
     <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -66,7 +66,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FJgVQDyZQ1NQFYSnE_H-" name="Part-2-repl">
+  <diagram id="FJgVQDyZQ1NQFYSnE_H-" name="Part-4-repl">
     <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -113,7 +113,7 @@
         <mxCell id="dxXFn-rNEx7SOqij7hf5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="dxXFn-rNEx7SOqij7hf5-7" target="dxXFn-rNEx7SOqij7hf5-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dxXFn-rNEx7SOqij7hf5-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Схема 2. Реплика&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Добваляем реплики согласно инструкции в задании&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="dxXFn-rNEx7SOqij7hf5-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Схема 3. Реплика&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Добваляем реплики согласно инструкции в задании&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="40" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="dxXFn-rNEx7SOqij7hf5-13" value="Шарды по хэш имени" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -152,7 +152,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="-d5Kb6_wITEG0mkf3W9n" name="Part-3-cache">
+  <diagram id="-d5Kb6_wITEG0mkf3W9n" name="Part-4-cache">
     <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -162,6 +162,9 @@
         </mxCell>
         <mxCell id="va_etPIG0Ks-gd9gqDyN-2" value="MongoDB&lt;div&gt;shard1&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(50, 168, 70); font-family: Menlo, &amp;quot;Ubuntu Mono&amp;quot;, consolas, source-code-pro, monospace; font-size: 14px; text-align: start; white-space: pre; background-color: rgb(245, 245, 245);&quot;&gt;27018&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="650" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="va_etPIG0Ks-gd9gqDyN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="va_etPIG0Ks-gd9gqDyN-3" target="va_etPIG0Ks-gd9gqDyN-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="va_etPIG0Ks-gd9gqDyN-3" value="pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="280" width="120" height="60" as="geometry" />
@@ -199,7 +202,7 @@
         <mxCell id="va_etPIG0Ks-gd9gqDyN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="va_etPIG0Ks-gd9gqDyN-9" target="va_etPIG0Ks-gd9gqDyN-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="va_etPIG0Ks-gd9gqDyN-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Схема 3. Кэш&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Добваляем реплики согласно инструкции в задании&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="va_etPIG0Ks-gd9gqDyN-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Схема 4. Кэш&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Добваляем реплики согласно инструкции в задании&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="40" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="va_etPIG0Ks-gd9gqDyN-15" value="Шарды по хэш имени" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -235,6 +238,17 @@
         <mxCell id="va_etPIG0Ks-gd9gqDyN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="va_etPIG0Ks-gd9gqDyN-2" target="va_etPIG0Ks-gd9gqDyN-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="va_etPIG0Ks-gd9gqDyN-26" value="&lt;div&gt;&lt;div&gt;Redis&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ayCYZ1CcTYrgE8Ct09c6" name="Part-5-apigw">
+    <mxGraphModel dx="2954" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

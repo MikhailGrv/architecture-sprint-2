@@ -1,8 +1,8 @@
 Спринт 2 
-задача 3 
+задача 4 
 Кэш
 
-Дока architecture-sprint-2\Docs\sprint2task1.drawio закладка Part-3-chache
+Дока architecture-sprint-2\Docs\sprint2task1.drawio закладка Part-4-chache
 
 Как запустить:
 1. в текущей дирректории docker compose  up -d
