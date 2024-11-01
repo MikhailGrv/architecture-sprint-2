@@ -1,8 +1,8 @@
 Спринт 2 
-задача 2 
-Реплики к шардам
+задача 3 
+Кэш
 
-Дока architecture-sprint-2\Docs\sprint2task1.drawio закладка Part-2-shard
+Дока architecture-sprint-2\Docs\sprint2task1.drawio закладка Part-3-chache
 
 Как запустить:
 1. в текущей дирректории docker compose  up -d
@@ -10,9 +10,12 @@
 Проверить:
 1. в баше в папке scripts ./mongo-test.sh
 Удалить:
-Руками из docker удалить Container "mongo-sharding-repl" и Volumes
+Руками из docker удалить Container "sharding-repl-cache" и Volumes
 
 
 TODO
 App-server потребовалось запихнуть в ту же подсеть, что и БД т.к. недостаточно знаний по настройке Docker
 Подсеть естественно дожна быть разная со строго ограниченными проходами.
+
+Заметки:
+Тест производительности через time.sleep(1) - сильно)))
