@@ -1,35 +1,9 @@
-# pymongo-api
+Яндекс архитектруа
+Грязнов М.В.
+Спринт 2
 
-## Как запустить
-
-Запускаем mongodb и приложение
-
-```shell
-docker compose up -d
-```
-
-Заполняем mongodb данными
-
-```shell
-./scripts/mongo-init.sh
-```
-
-## Как проверить
-
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+architecture-sprint-2\Docs - схемы по задавниям
+architecture-sprint-2\arch-sprint2-origin - оригинал задания
+architecture-sprint-2\mongo-sharding - задание 1 шардирование
+architecture-sprint-2\mongo-sharding-repl - задание 2 репликация
+architecture-sprint-2\sharding-repl-cache - задание 3 Кэш
